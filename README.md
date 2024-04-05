@@ -17,7 +17,7 @@ This is a Node.js based API to receive, process, and store Heart Rate data async
 2. Update the PostgreSQL connection details in `index.js` (user, host, database, password, port).
 
 ## Usage
-1. Run npm start` to start the server.
+1. Run `npm start` to start the server.
 2. Send a POST request to `http://localhost:5000/process-data` with the payload containing Heart Rate data.
 3. The server will process the data, and the processed response will be returned.
 
